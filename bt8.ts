@@ -42,11 +42,10 @@ function printOrder(order: Order) {
     }
 }
 
-// Dữ liệu sản phẩm
+
 const aoSoMi: Product = { id: "P01", name: "Áo sơ mi", price: 250000 };
 const quanTay: Product = { id: "P02", name: "Quần tây", price: 400000 };
 
-// Đơn hàng mẫu
 const order: Order = {
     orderId: "ORD001",
     customerName: "Nguyễn Văn A",
@@ -57,5 +56,4 @@ const order: Order = {
     note: "Giao sau 18h"
 };
 
-// In đơn hàng
 printOrder(order);
